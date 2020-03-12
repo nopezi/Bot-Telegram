@@ -64,6 +64,38 @@ class kumpul{
 
     }
 
+    public function pesan($kirim_data){ // kirim pesan
+        $method = '/sendMessage';
+        $request = 'POST';
+
+      $options = array(
+        'cluster' => 'ap1',
+        'useTLS' => true
+      );
+
+      $pusher = new Pusher\Pusher(
+        '421ce9b5265ffbfbde08',
+        'f24a6a32687b3b379cdc',
+        '828883',
+        $options
+      );
+
+      $data['message'] = 'hello world';
+      $pusher->trigger('my-channel', 'my-event', $data);
+
+      return api($method, $request, $kirim_data);
+
+    }
+
+    function url(){ // untuk base url
+      return sprintf(
+        "%s://%s%s",
+        isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
+        $_SERVER['SERVER_NAME'],
+        $_SERVER['REQUEST_URI']
+      );
+    }
+
 }
 
 $ambil = new kumpul();
