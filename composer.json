@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"description": "The CodeIgniter framework",
 	"name": "codeigniter/framework",
 	"type": "project",
@@ -21,4 +22,9 @@
 		"mikey179/vfsStream": "1.1.*",
 		"phpunit/phpunit": "4.* || 5.*"
 	}
+=======
+    "require": {
+        "pusher/pusher-php-server": "^3.4"
+    }
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
 }

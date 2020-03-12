@@ -4,15 +4,22 @@
 
 namespace Composer\Autoload;
 
+<<<<<<< HEAD
 class ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+=======
+class ComposerStaticInitd209fce2ae1416a584a431cbbb2d45ec
+{
+    public static $files = array (
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
         '3109cb1a231dcd04bee1f9f620d46975' => __DIR__ . '/..' . '/paragonie/sodium_compat/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+<<<<<<< HEAD
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -26,20 +33,26 @@ class ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
         ),
+=======
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
         'P' => 
         array (
             'Pusher\\' => 7,
             'Psr\\Log\\' => 8,
+<<<<<<< HEAD
             'Prophecy\\' => 9,
         ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+=======
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+<<<<<<< HEAD
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -58,6 +71,8 @@ class ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
+=======
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
         'Pusher\\' => 
         array (
             0 => __DIR__ . '/..' . '/pusher/pusher-php-server/src',
@@ -66,6 +81,7 @@ class ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+<<<<<<< HEAD
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
@@ -556,15 +572,22 @@ class ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
+=======
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+<<<<<<< HEAD
             $loader->prefixLengthsPsr4 = ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit7988c3e2ea75df4a5864e9be7b615321::$classMap;
+=======
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd209fce2ae1416a584a431cbbb2d45ec::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd209fce2ae1416a584a431cbbb2d45ec::$prefixDirsPsr4;
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
 
         }, null, ClassLoader::class);
     }

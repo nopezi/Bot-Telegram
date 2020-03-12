@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "name": "doctrine/instantiator",
         "version": "1.3.0",
         "version_normalized": "1.3.0.0",
@@ -140,6 +141,8 @@
         ]
     },
     {
+=======
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
         "name": "paragonie/random_compat",
         "version": "v9.99.99",
         "version_normalized": "9.99.99.0",
@@ -271,6 +274,7 @@
         ]
     },
     {
+<<<<<<< HEAD
         "name": "phpdocumentor/reflection-common",
         "version": "2.0.0",
         "version_normalized": "2.0.0.0",
@@ -296,12 +300,40 @@
         "extra": {
             "branch-alias": {
                 "dev-master": "2.x-dev"
+=======
+        "name": "psr/log",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+            "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-11-01T11:05:21+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
             }
         },
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
+<<<<<<< HEAD
                 "phpDocumentor\\Reflection\\": "src/"
+=======
+                "Psr\\Log\\": "Psr/Log/"
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -310,6 +342,7 @@
         ],
         "authors": [
             {
+<<<<<<< HEAD
                 "name": "Jaap van Otterdijk",
                 "email": "opensource@ijaap.nl"
             }
@@ -458,18 +491,66 @@
         "extra": {
             "branch-alias": {
                 "dev-master": "1.10.x-dev"
+=======
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "pusher/pusher-php-server",
+        "version": "v3.4.1",
+        "version_normalized": "3.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pusher/pusher-http-php.git",
+            "reference": "a5fcdc65efd8d9a8291efbe01d326ec7ef5d5cee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pusher/pusher-http-php/zipball/a5fcdc65efd8d9a8291efbe01d326ec7ef5d5cee",
+            "reference": "a5fcdc65efd8d9a8291efbe01d326ec7ef5d5cee",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "paragonie/sodium_compat": "^1.6",
+            "php": ">=5.4 <7.4",
+            "psr/log": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35 || ^5.7"
+        },
+        "time": "2019-03-19T11:19:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
             }
         },
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
+<<<<<<< HEAD
                 "Prophecy\\": "src/Prophecy"
+=======
+                "Pusher\\": "src/"
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
             }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
+<<<<<<< HEAD
         "authors": [
             {
                 "name": "Konstantin Kudryashov",
@@ -988,6 +1069,9 @@
             "MIT"
         ],
         "description": "Library for interacting with the Pusher REST API",
+=======
+        "description": "Library for interacting with the Pusher REST API",
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
         "keywords": [
             "events",
             "messaging",
@@ -1001,6 +1085,7 @@
             "rest",
             "trigger"
         ]
+<<<<<<< HEAD
     },
     {
         "name": "sebastian/code-unit-reverse-lookup",
@@ -1705,5 +1790,7 @@
             "check",
             "validate"
         ]
+=======
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
     }
 ]

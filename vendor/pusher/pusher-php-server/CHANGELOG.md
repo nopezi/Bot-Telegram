@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 4.1.1 (2019-12-03)
 
 [ADDED] Support for PHP 7.4.
@@ -10,6 +11,8 @@
 
 [REMOVED] Support for PHP 5.x, PHP 7.0 and HHVM.
 
+=======
+>>>>>>> a5e5d31453fc2a150f2be0e13d76a2f027b5596b
 ## 3.4.1 (2019-03-18)
 
 [ADDED] Support for PHP 7.3.
